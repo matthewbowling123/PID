@@ -29,6 +29,15 @@ Fix any problems with the code
 
 Have Project done
 
+## Materials
+This project requires a 3d printer and lazer cutter as well as these parts.
+* one Metro
+* one Photointeruptor
+* a Breadboard
+* an LCD (If you want it displayed on one)
+* A Tip 120
+* Several wires
+* a switch
 
 ## CAD
 [Here is a link to our CAD](https://cvilleschools.onshape.com/documents/add9f72dd6248fd21fa5ebc4/w/ac75cde634b3c854afb69390/e/851fd580e5be618cd14de4cc)
