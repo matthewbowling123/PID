@@ -70,6 +70,7 @@ while True:
     photoVal = inter.value 
     
     '''
+    though this code is not 100% someone elses, it is mostly taken from other students Githubs. Most notably Jakob Weder who I got the RPM code from.
     if photoVal and (oldPhotoVal == False):
         oldPhotoVal = True
         interrupts += 1
