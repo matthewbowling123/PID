@@ -34,6 +34,11 @@ Have Project done
 [Here is a link to our CAD](https://cvilleschools.onshape.com/documents/add9f72dd6248fd21fa5ebc4/w/ac75cde634b3c854afb69390/e/851fd580e5be618cd14de4cc)
 ![Screenshot 2023-05-31 150505](https://github.com/matthewbowling123/PID/assets/112979288/a2c612d7-2942-46ae-8800-166f9458ef86)
 This CAD was comprised of a box held together by brackets which contained a Metro, An LCD screen, a Photointeruptor, and a Motor. There was also a batery pack outside the box. Because of how simple the design is, there was very minimal difficulty creating this CAD. Thankfully only one part needed to be 3D printed which ultimatly limited the cost of the project.
+## Parts Design
+| **Wheel** | **Main Box** |
+|--------|--------------|
+| **Description:** This Wheel was designed to fit on a DC Motor and have a Potentiometer read the time between each gap. It is then multiplied by 4 to get the full RPM | **Description:** This main Box is just 4 walls held together by brackets. It also includes holes for the Motor, Photointeruptor, and wire for the Metro. The 3D part is what holds the Motor in place. | 
+| <img src="https://github.com/matthewbowling123/PID/assets/112979288/79244617-f7f6-4d2d-9497-ed85317591c0)"> |<img src="https://github.com/matthewbowling123/PID/assets/112979288/4e816ce4-3896-4531-8348-2e51169749e2" alt="wiring2" style="width:318px;"> |         
 ## Code
 ```
 import board
