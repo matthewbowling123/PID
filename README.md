@@ -88,9 +88,9 @@ while True:
     if inter.value == False:
         AverageT = AverageT + Diffrence
         Processed = True
-
 ```
-    though this code is not 100% someone elses, it is mostly taken from other students Githubs. Most notably Jakob Weder who I got the RPM code from.
+
+though this code is not 100% someone elses, it is mostly taken from other students Githubs. Most notably Jakob Weder who I got the RPM code from.
 ## Wiring
 ![Screenshot 2023-05-31 145847](https://github.com/matthewbowling123/PID/assets/112979288/045763e9-960e-40c3-aca9-a4106132aca4)
 ## Reflection
