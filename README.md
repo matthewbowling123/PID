@@ -1,5 +1,14 @@
 # PID Project
 For this project we were asked to make a project that uses PID in some way. We choose a simple but difficult project. A box with a wheel in which a photointeruptor wuld read the amount of rotationd and display on an LCD screen. A rotary ecoder would be used to change the wheels speed.
+## Table of Contents
+- [Milestones](#Milestones)
+- [Materials](#Materials)
+- [CAD](#CAD)
+- [Parts Design](#Parts-Design)
+- [Code](#Code)
+- [Wiring](#Wiring)
+- [Evidence](#Evidence)
+- [Reflection](#Reflection)
 ## Milestones
 4/21
 
