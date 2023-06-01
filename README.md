@@ -9,7 +9,8 @@ For this project we were asked to make a project that uses PID in some way. We c
 - [Wiring](#Wiring)
 - [Evidence](#Evidence)
 - [Reflection](#Reflection)
-## Potential Obsticle
+- [Potential Obsticles](#Potential Obsticles)
+## Potential Obsticles
 * Figuring out how to code PID
 * making sure the design works for the objective
 * Learning new CPython Code.
