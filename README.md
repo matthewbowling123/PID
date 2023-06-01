@@ -36,7 +36,6 @@ Have Project done
 This CAD was comprised of a box held together by brackets which contained a Metro, An LCD screen, a Photointeruptor, and a Motor. There was also a batery pack outside the box. Because of how simple the design is, there was very minimal difficulty creating this CAD. Thankfully only one part needed to be 3D printed which ultimatly limited the cost of the project.
 ## Code
 ```
-
 import board
 import time
 import pwmio
@@ -45,8 +44,12 @@ import digitalio as DIO
 #from lcd.lcd import LCD
 #from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
 #import PID_CPY as PidLib
+from lib.PID import PID
 
-setpoint = 5
+
+setpoint = .005
+pid = PID(1, 0, 0, setpoint=setpoint)
+pid.output_limits=(20000, 50000)
 
 Bvalue = False
 AverageT = 0
@@ -57,7 +60,7 @@ Diffrence = 0
 Currenttime = 0
 Pasttime = 0
 Interupts = 0
-#pid = PidLib.PID(5, 0.01, 0.1, setpoint= setpoint)
+# pid = PidLib.PID(5, 0.01, 0.1, setpoint= setpoint)
 
 motor = pwmio.PWMOut(board.D7)
 motor.duty_cycle = 0
@@ -91,7 +94,7 @@ while True:
    # time.sleep(1)
    # motor.duty_cycle = 0
    # time.sleep(5)
-    motor.duty_cycle = 5000
+    # motor.duty_cycle = 5000
    # time.sleep(1)
    # motor.duty_cycle = 0
    # time.sleep(5)
@@ -115,9 +118,15 @@ while True:
         Tcount = Tcount + 1
         print(Tcount*4)
         print(Diffrence)
+        print(1/(Diffrence*4/60))
     if inter.value == False:
         AverageT = AverageT + Diffrence
         Processed = True
+    
+    control = int(pid(Tcount*4))
+    print(control)
+    motor.duty_cycle = control
+
 ```
 
 though this code is not 100% someone elses, it is mostly taken from other students Githubs. Most notably Jakob Weder who I got the RPM code from.
