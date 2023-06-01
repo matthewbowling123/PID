@@ -1,5 +1,35 @@
 # PID Project
 For this project we were asked to make a project that uses PID in some way. We choose a simple but difficult project. A box with a wheel in which a photointeruptor wuld read the amount of rotationd and display on an LCD screen. A rotary ecoder would be used to change the wheels speed.
+## Milestones
+4/21
+
+Start planning to figure out what we're going to do.And start cad
+
+4/28
+
+Have CADprototype made,other person work on code 
+
+5/4
+
+Start printing the box and run into problems with design, other person still researches code and helps the other person as they need.
+
+5/11
+
+Have coding ideas, if you don’t keep researching there a good chance that your not close in coding. Have an updated version of the PID design.
+
+5/18
+
+Fix any problems with coding and if there's any problem with the box get it done 
+
+5/25
+
+Fix any problems with the code
+
+6/2
+
+Have Project done
+
+
 ## CAD
 [Here is a link to our CAD](https://cvilleschools.onshape.com/documents/add9f72dd6248fd21fa5ebc4/w/ac75cde634b3c854afb69390/e/851fd580e5be618cd14de4cc)
 ![Screenshot 2023-05-31 150505](https://github.com/matthewbowling123/PID/assets/112979288/a2c612d7-2942-46ae-8800-166f9458ef86)
