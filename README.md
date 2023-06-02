@@ -76,33 +76,33 @@ from lib.PID import PID
 
 
 setpoint = .005
-pid = PID(1, 0, 0, setpoint=setpoint)
+pid = PID(1, 0, 0, setpoint=setpoint)  # Sets the setpoint and the motor speed variables
 pid.output_limits=(20000, 50000)
 
 Bvalue = False
 AverageT = 0
 Period= 0
 Tcount = 0
-Processed = True
+Processed = True       # Set variables that will be used in later code
 Diffrence = 0
 Currenttime = 0
 Pasttime = 0
 Interupts = 0
 # pid = PidLib.PID(5, 0.01, 0.1, setpoint= setpoint)
 
-motor = pwmio.PWMOut(board.D7)
+motor = pwmio.PWMOut(board.D7)   # Motor Pin
 motor.duty_cycle = 0
 
 
 #i2c = board.I2C()
-#lcd = LCD(I2CPCF8574Interface(i2c, 0x27), num_rows=2, num_cols=16)
+#lcd = LCD(I2CPCF8574Interface(i2c, 0x27), num_rows=2, num_cols=16)  # Set up LCD
 
 inter = DIO.DigitalInOut(board.D11)
 inter.direction = DIO.Direction.INPUT
 inter.pull = DIO.Pull.UP
 
 #motor =  pwmio.PWMOut(board.D7)
-#motor.duty_cycle = 65535``
+#motor.duty_cycle = 65535``        # Set up motor and show it runs on serial monitor.
 #print("running")
 #time.sleep(0.15)
 
@@ -117,7 +117,7 @@ photoVal = False
 oldPhotoVal = False # Used to make sure we only count the first loop when interupt is broken
 
 while True:
-    #print("Interupts", interrupts)
+    #print("Interupts", interrupts)   #Prints the amount of interupts every time the Photointeruptior reads a hole in the wheel.
     #motor.duty_cycle = 65000
    # time.sleep(1)
    # motor.duty_cycle = 0
@@ -138,13 +138,13 @@ while True:
         oldPhotoVal  = False'''
 
     Truetime = time.monotonic()
-    if inter.value == True and Processed == True:       # Encoder
+    if inter.value == True and Processed == True:       # Set the differant time variables
         Currenttime = Truetime
         Diffrence = Currenttime - Pasttime
         Pasttime = Currenttime
         Processed = False
         Tcount = Tcount + 1
-        print(Tcount*4)
+        print(Tcount*4)               # There are 4 evenly dispersed holes so we mulitply by 4 to get full RPM.
         print(Diffrence)
         print(1/(Diffrence*4/60))
     if inter.value == False:
