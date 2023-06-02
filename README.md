@@ -1,5 +1,5 @@
 # PID Project
-For this project we were asked to make a project that uses PID in some way. We choose a simple but difficult project. A box with a wheel in which a photo interrupter would read the amount of rotations and display on an LCD screen. A rotary encoder would be used to change the wheels speed.
+For this project we were asked to make a project that uses PID in some way. We choose a simple but difficult project. A box with a wheel in which a photo interrupter would read the amount of rotations and display on an LCD screen. A potentiometer would be used to change the wheels speed.
 ## Table of Contents
 - [Potential Obstacles](#Potential-Obstacles)
 - [Milestones](#Milestones)
