@@ -19,29 +19,17 @@ For this project we were asked to make a project that uses PID in some way. We c
 
 Start planning to figure out what we're going to do.And start cad
 
-4/28
+4/28 Have CADprototype made,other person work on code 
 
-Have CADprototype made,other person work on code 
+5/4 Start printing the box and run into problems with design, other person still researches code and helps the other person as they need.
 
-5/4
+5/11 Have coding ideas, if you don’t keep researching there a good chance that your not close in coding. Have an updated version of the PID design.
 
-Start printing the box and run into problems with design, other person still researches code and helps the other person as they need.
+5/18 Fix any problems with coding and if there's any problem with the box get it done 
 
-5/11
+5/25 Fix any problems with the code
 
-Have coding ideas, if you don’t keep researching there a good chance that your not close in coding. Have an updated version of the PID design.
-
-5/18
-
-Fix any problems with coding and if there's any problem with the box get it done 
-
-5/25
-
-Fix any problems with the code
-
-6/2
-
-Have Project done
+6/2 Have Project done
 
 ## Materials
 This project requires a 3d printer and laser cutter as well as these parts.
