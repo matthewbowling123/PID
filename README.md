@@ -45,7 +45,7 @@ Have Project done
 
 ## Materials
 This project requires a 3d printer and laser cutter as well as these parts.
-* 
+* [One Adafruit Metro Express](https://learn.adafruit.com/adafruit-metro-m0-express/circuitpython)
 * one Photointerrupter
 * a Breadboard
 * an LCD (If you want it displayed on one)
@@ -166,10 +166,14 @@ though this code is not 100% someone else's, it is mostly taken from other stude
 https://github.com/matthewbowling123/PID/assets/112979288/06107892-84c8-41d0-a37a-12b61f05deea
 
 <img src="https://github.com/matthewbowling123/PID/assets/112979288/accf2bc5-f720-49bc-b269-8552db595657" alt="wiring2" style="width:500px;">
+
 ## Reflection
+
 ### Reflection Matthew
+
 This assignment ultimately proved itself very difficult for my partner and I. Though the Cad design itself was very simple, The code took a lot of effort to create and much of it was borrowed from other people. A big thanks to all three Weders for their code and their brilliant documentations which I learned a lot from. I think ultimately if we had more time planning out the project we would have gotten further.
 ### Reflection Aaron
+
 Everything was going smooth except for the code.Me and my partner couldn’t find anything online about the code.We research for a couple weeks and couldn’t find anything till we did.But it took us to the last minute to get it working.It works good now.That went a little off of the goal we had but we adjusted and made improvements, we expect for us to struggle with this sense were not that good a python coding .The planning and CAD was easy for us we got the final version done in just a couple weeks.With no big problems to deal with.
 
 
