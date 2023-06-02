@@ -45,7 +45,7 @@ Have Project done
 
 ## Materials
 This project requires a 3d printer and laser cutter as well as these parts.
-* one Metro
+* 
 * one Photointerrupter
 * a Breadboard
 * an LCD (If you want it displayed on one)
@@ -60,10 +60,10 @@ This CAD was comprised of a box held together by brackets which contained a Metr
 ## Parts Design
 | **Wheel** | **Main Box** |
 |--------|--------------|
-| **Description:** This Wheel was designed to fit on a DC Motor and have a Potentiometer read the time between each gap. It is then multiplied by 4 to get the full RPM | **Description:** This main Box is just 4 walls held together by brackets. It also includes holes for the Motor, Photointeruptor, and wire for the Metro. The 3D part is what holds the Motor in place. | 
-| <img src="https://github.com/matthewbowling123/PID/assets/112979288/79244617-f7f6-4d2d-9497-ed85317591c0)"> |<img src="https://github.com/matthewbowling123/PID/assets/112979288/4e816ce4-3896-4531-8348-2e51169749e2" alt="wiring2" style="width:318px;"> |         
-## Code
-```
+| **Description:** This Wheel was designed to fit on a DC Motor and have a Potentiometer read the time between each gap. It is then multiplied by 4 to get the full RPM | **Description:** This main Box is just 4 walls held together by brackets. It also includes holes for the Motor, Photointeruptor, and wire for the Metro. The 3D part is what holds the Motor in place |
+| <img src="https://github.com/matthewbowling123/PID/assets/112979288/b335818e-2e63-44ad-b080-75fae758f11f" alt="wiring2" style="width:318px;"> | <img src="https://github.com/matthewbowling123/PID/assets/112979288/01a4756b-cbb0-41dc-900e-8ac99ba3ce53" alt="wiring2" style="width:318px;">
+  
+```python
 import board
 import time
 import pwmio
@@ -166,8 +166,10 @@ though this code is not 100% someone else's, it is mostly taken from other stude
 https://github.com/matthewbowling123/PID/assets/112979288/06107892-84c8-41d0-a37a-12b61f05deea
 
 <img src="https://github.com/matthewbowling123/PID/assets/112979288/accf2bc5-f720-49bc-b269-8552db595657" alt="wiring2" style="width:500px;">
-
 ## Reflection
+### Reflection Matthew
 This assignment ultimately proved itself very difficult for my partner and I. Though the Cad design itself was very simple, The code took a lot of effort to create and much of it was borrowed from other people. A big thanks to all three Weders for their code and their brilliant documentations which I learned a lot from. I think ultimately if we had more time planning out the project we would have gotten further.
+### Reflection Aaron
+Everything was going smooth except for the code.Me and my partner couldn’t find anything online about the code.We research for a couple weeks and couldn’t find anything till we did.But it took us to the last minute to get it working.It works good now.That went a little off of the goal we had but we adjusted and made improvements, we expect for us to struggle with this sense were not that good a python coding .The planning and CAD was easy for us we got the final version done in just a couple weeks.With no big problems to deal with.
 
 
