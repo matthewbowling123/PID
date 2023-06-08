@@ -166,7 +166,12 @@ https://github.com/matthewbowling123/PID/assets/112979288/06107892-84c8-41d0-a37
 
 ### Reflection Matthew
 
-This assignment ultimately proved itself very difficult for my partner and I. Though the Cad design itself was very simple, The code took a lot of effort to create and much of it was borrowed from other people. A big thanks to all three Weders for their code and their brilliant documentations which I learned a lot from. I think ultimately if we had more time planning out the project we would have gotten further.
+This assignment ultimately proved itself very difficult for my partner and I. Though the Cad design itself was very simple, The code took a lot of effort to create and much of it was borrowed from other people. A big thanks to all three Weders for their code and their brilliant documentations which I learned a lot from. I think ultimately if we had more time planning out the project we would have gotten further. 
+
+Here are GitHubs that were helpful:
+* [Paul](https://github.com/japhero)
+* [Anton and Sophie](https://github.com/aweder05/PID-Project-Engineering-3-Sophie-Anton)
+* [Jakob](https://github.com/Jweder06/Centrifuge)
 ### Reflection Aaron
 
 Everything was going smooth except for the code.Me and my partner couldn’t find anything online about the code.We research for a couple weeks and couldn’t find anything till we did.But it took us to the last minute to get it working.It works good now.That went a little off of the goal we had but we adjusted and made improvements, we expect for us to struggle with this sense were not that good a python coding .The planning and CAD was easy for us we got the final version done in just a couple weeks.With no big problems to deal with.
