@@ -16,9 +16,11 @@ Here are some sketches we made for planning.
 <img src="https://github.com/matthewbowling123/PID/assets/112979288/6cf79025-4b5f-4382-aebb-074ca1e655b1" alt="wiring2" style="width:318px;">
 
 ## Potential Obstacles
-* Figuring out how to code PID
-* making sure the design works for the objective
-* Learning new CPython Code.
+| Problem  | Solution |
+| ------------- | ------------- |
+| Figuring out how to code PID | Several students have already done this and can help teach us. Also there are many online resources.|
+| making sure the design works for the objective | We make a proof of concept and check with Mr. Dierof for approval. Thankfully he did approve of our design. |
+| Learning new CPython Code. | Though we have used CPython all this year, this assignment is more difficult code in general. We will be researching PID throughout the creation of the project and ask for help when 
 ## Milestones
 4/21
 
