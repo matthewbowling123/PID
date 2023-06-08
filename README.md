@@ -1,6 +1,7 @@
 # PID Project
 For this project we were asked to make a project that uses PID in some way. We choose a simple but difficult project. A box with a wheel in which a photo interrupter would read the amount of rotations and display on an LCD screen. A potentiometer would be used to change the wheels speed.
 ## Table of Contents
+- [Planning](#Planning)
 - [Potential Obstacles](#Potential-Obstacles)
 - [Milestones](#Milestones)
 - [Materials](#Materials)
@@ -158,6 +159,8 @@ while True:
 
 though this code is not 100% someone else's, it is mostly taken from other students' Githubs. Most notably Jakob Weder who I got the RPM code from.
 ## Wiring
+Here is the wiring for the project.
+
 ![Screenshot 2023-05-31 145847](https://github.com/matthewbowling123/PID/assets/112979288/045763e9-960e-40c3-aca9-a4106132aca4)
 ## Evidence
 
