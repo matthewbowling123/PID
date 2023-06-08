@@ -59,6 +59,7 @@ This CAD was comprised of a box held together by brackets which contained a Metr
 | <img src="https://github.com/matthewbowling123/PID/assets/112979288/b335818e-2e63-44ad-b080-75fae758f11f" alt="wiring2" style="width:318px;"> | <img src="https://github.com/matthewbowling123/PID/assets/112979288/01a4756b-cbb0-41dc-900e-8ac99ba3ce53" alt="wiring2" style="width:318px;">
   
 ```python
+# This code spin a motor within a Photointeruptor and displays the RPM on a serial monitor.
 import board
 import time
 import pwmio
@@ -70,7 +71,7 @@ import digitalio as DIO
 from lib.PID import PID
 
 
-setpoint = .005
+setpoint = .005    # The speed the motor is trying to reach.
 pid = PID(1, 0, 0, setpoint=setpoint)  # Sets the setpoint and the motor speed variables
 pid.output_limits=(20000, 50000)
 
@@ -126,7 +127,7 @@ while True:
     photoVal = inter.value 
     
     '''
-    if photoVal and (oldPhotoVal == False):
+    if photoVal and (oldPhotoVal == False): # this is commented out. Ignonre it.
         oldPhotoVal = True
         interrupts += 1
     if not photoVal:
@@ -134,9 +135,9 @@ while True:
 
     Truetime = time.monotonic()
     if inter.value == True and Processed == True:       # Set the differant time variables
-        Currenttime = Truetime
-        Diffrence = Currenttime - Pasttime
-        Pasttime = Currenttime
+        Currenttime = Truetime                          # The currenttime is the time displayed per 4rth of a rotation.
+        Diffrence = Currenttime - Pasttime              # The differance is the currewntime minus the time the photinteruptor reads empty.
+        Pasttime = Currenttime                          # Passtime is how much is displayed whgen the currentime is processed.
         Processed = False
         Tcount = Tcount + 1
         print(Tcount*4)               # There are 4 evenly dispersed holes so we mulitply by 4 to get full RPM.
