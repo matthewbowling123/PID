@@ -172,7 +172,7 @@ This is an image of our finished project.
 
 ### Reflection Matthew
 
-This assignment ultimately proved itself very difficult for my partner and I. Though the Cad design itself was very simple, The code took a lot of effort to create and much of it was borrowed from other people. A big thanks to all three Weders for their code and their brilliant documentations which I learned a lot from. I think ultimately if we had more time planning out the project we would have gotten further. 
+This assignment ultimately proved itself very difficult for my partner and I. Though the Cad design itself was very simple, The code took a lot of effort to create and much of it was borrowed from other people. A big thanks to all three Weders for their code and their brilliant documentations which I learned a lot from. I think ultimately if we had more time planning out the project we would have gotten further. Some tips I have for other people working on a similer project is to get working on the code as soon as possible. We delayed it to long to have time to finish it. If you are struggling with code the Githubs below are very helpful.
 
 Here are GitHubs that were helpful:
 * [Paul](https://github.com/japhero)
