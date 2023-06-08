@@ -161,8 +161,10 @@ though this code is not 100% someone else's, it is mostly taken from other stude
 ![Screenshot 2023-05-31 145847](https://github.com/matthewbowling123/PID/assets/112979288/045763e9-960e-40c3-aca9-a4106132aca4)
 ## Evidence
 
-
+This video shows the RPM being read on the serial monitor. It is read through the Photointeruptor.
 https://github.com/matthewbowling123/PID/assets/112979288/06107892-84c8-41d0-a37a-12b61f05deea
+
+This is an image of our finished project.
 
 <img src="https://github.com/matthewbowling123/PID/assets/112979288/accf2bc5-f720-49bc-b269-8552db595657" alt="wiring2" style="width:500px;">
 
