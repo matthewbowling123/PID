@@ -162,6 +162,7 @@ though this code is not 100% someone else's, it is mostly taken from other stude
 ## Evidence
 
 This video shows the RPM being read on the serial monitor. It is read through the Photointeruptor.
+
 https://github.com/matthewbowling123/PID/assets/112979288/06107892-84c8-41d0-a37a-12b61f05deea
 
 This is an image of our finished project.
