@@ -10,6 +10,11 @@ For this project we were asked to make a project that uses PID in some way. We c
 - [Wiring](#Wiring)
 - [Evidence](#Evidence)
 - [Reflection](#Reflection)
+## Planning
+Here are some sketches we made for planning.
+
+<img src="https://github.com/matthewbowling123/PID/assets/112979288/6cf79025-4b5f-4382-aebb-074ca1e655b1" alt="wiring2" style="width:318px;">
+
 ## Potential Obstacles
 * Figuring out how to code PID
 * making sure the design works for the objective
