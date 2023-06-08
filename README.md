@@ -50,7 +50,9 @@ This project requires a 3d printer and laser cutter as well as these parts.
 
 ## CAD
 [Here is a link to our CAD](https://cvilleschools.onshape.com/documents/add9f72dd6248fd21fa5ebc4/w/ac75cde634b3c854afb69390/e/851fd580e5be618cd14de4cc)
+
 This is an image of our full box that is used for the project.
+
 ![Screenshot 2023-05-31 150505](https://github.com/matthewbowling123/PID/assets/112979288/a2c612d7-2942-46ae-8800-166f9458ef86)
 This CAD was comprised of a box held together by brackets which contained a Metro, An LCD screen, a Photointeruptor, and a Motor. There was also a battery pack outside the box. Because of how simple the design is, there was very minimal difficulty creating this CAD. Thankfully only one part needed to be 3D printed which ultimately limited the cost of the project.
 ## Parts Design
